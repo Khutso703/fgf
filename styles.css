@@ -155,13 +155,14 @@
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
+        width: 100%;
     }
     #navbar__logo img{
         padding-left:25px;
         width: 40%;
         margin-top: -7px;
         margin-right: 40px;
-        padding-left: 0%;
+        
     }
 
     .navbar__toggle .bar{
@@ -222,6 +223,9 @@
     }
     #mobile-menu.is-active .bar:nth-child(3){
        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar-brand{
+        margin-left: -26%;
     }
 
 }
@@ -407,8 +411,9 @@ background-size:100%;
 .main-fluid{
     
     background-size: cover;
-    right: 15px;
-    margin-top: 30%;
+    right: 0px;
+    margin-left: -50px;
+    margin-top: 40%;
     width: 50%;
     height: 50%;
     border-radius: 600px;
@@ -420,7 +425,7 @@ background-size:100%;
 
 .main-img {
 position: relative;
-margin-top: 0%;
+margin-top: 10%;
 width: 70%;
 max-width: 100%;
 }
