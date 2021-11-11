@@ -436,13 +436,6 @@ left: 0;
 top: -120px;
 max-width: 100%;
 }
-.banner-section {
-    height: 600px;
-    background-color: #1c1c1c70;
-    color: #ffffff;
-    padding: 3rem 0;
-    margin-bottom: 89px;
-}
 
 }
     
@@ -534,17 +527,12 @@ footer{
     margin: 0;
     background: #484872;
     text-align: center;
-}
-footer {
+
     color: whitesmoke;
     margin: 20px auto;
     padding: 20px auto;
 }
 
-/*section {
-    background-color: rgba(0, 0, 0, 0.329);
-    background-size: cover;
-}*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
 body{
@@ -563,11 +551,12 @@ body{
 }
 
 .banner-section {
-   
+    
+    height: 570px;
     background-color: #1c1c1c70;
     color: #ffffff;
     padding: 3rem 0;
-    margin-bottom: 89px;
+    
 }
 
 .banner-title {
@@ -586,29 +575,13 @@ body{
 
 }
 
-.ReadMore {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    background-color: #45ac75;
-    color: #000;
-    display: inline-block;
-    padding: 0.75rem 2rem;
-}
 
-.ReadMore:hover {
-    color: #000000;
-    text-decoration: none;
-    opacity: 0.8;
-}
 
 
 .main-fluid{
     
         background-size: cover;
-
         right: 15px;
-        
         width: 50%;
         height: 50%;
         border-radius: 600px;
@@ -667,59 +640,36 @@ body{
 .banner-section>.container {
     position: relative;
 }
-/*
-.round:hover{
-    
-    transition: transporm .3s ease;
-    transform:scale(1.1)
-}
-.round {
-    
-   border-radius: 50px;
-   background-size: cover;
-    z-index: 9;
-    position: absolute;
-    display: block;
-    width: 170px;
-    height: 170px;
-}
 
-.round-1 {
-    background: url(images/Catering\ 2.jpg) no-repeat center / 100%;
-    top: -170px;
-    left: 15px;
-    height: 100px;
-    width: 100px;
-}
-
-.round-2 {
-    background: url(images/Mobile-chiller.jpg) no-repeat center / 100%;
-    right: 120px;
-    top: -123px;
-    width: 100px;
-    height: 100px;
-}
-
-.round-3 {
-    background: url(images/Chair\ 2.jfif) no-repeat center / 100%;
-    right: 15px;
-    top: 0px;
-    width: 100px;
-    height: 100px;
-}
-
-.round-4 {
-    background: url(images/Deco2.jpg) no-repeat center / 100%;
-    right: 0;
-    bottom: -88px;
-    width: 100px;
-    height: 100px;
-}*/
-
-
-/* .main {
-    background: url('../images/Shape.png');
-} */
 .Responsiveimage>img{
     border-radius: 600px; 
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(192, 192, 192);
+
+}
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    padding: 0 20px 20px;
+    margin: 10px;
+
+}
+.image:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.image img{
+    width: 260px;
+    height: 200px;
+}
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.747);
 }
