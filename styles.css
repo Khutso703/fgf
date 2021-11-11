@@ -407,7 +407,12 @@ background-size:100%;
             padding:10px;
     }
 
-    
+    .image img{
+        max-width:160px;
+        width: 160px;
+        max-height: 150px;
+          
+    } 
 .main-fluid{
     
     background-size: cover;
