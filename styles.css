@@ -436,6 +436,13 @@ left: 0;
 top: -120px;
 max-width: 100%;
 }
+.banner-section {
+    height: 600px;
+    background-color: #1c1c1c70;
+    color: #ffffff;
+    padding: 3rem 0;
+    margin-bottom: 89px;
+}
 
 }
     
@@ -556,10 +563,11 @@ body{
 }
 
 .banner-section {
+   
     background-color: #1c1c1c70;
     color: #ffffff;
     padding: 3rem 0;
-    margin: 8rem 0;
+    margin-bottom: 89px;
 }
 
 .banner-title {
